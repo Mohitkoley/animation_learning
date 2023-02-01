@@ -1,0 +1,6 @@
+
+day 2 I learned that tween is simply represent x axis on which animtion will take place(idle 0.0-1.0)
+aniamtion is simply double value which change according to animationController value with calculation of Tween 
+animation if we put animationControllerValue in transform widget then it will show static animation like moving one place to another
+but when we use animation as transform value then it will show diffrent transiton animation.
+
