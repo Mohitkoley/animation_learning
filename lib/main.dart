@@ -1,3 +1,4 @@
+import 'package:animation1/parallax_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,14 +11,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        useMaterial3: true,
-        primarySwatch: Colors.blue,
-      ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
-    );
+        debugShowCheckedModeBanner: false,
+        title: 'Flutter Demo',
+        theme: ThemeData(
+          useMaterial3: true,
+          primarySwatch: Colors.blue,
+        ),
+        home: ParallaxEffect(
+            child: Center(
+          child: Image.asset('assets/images/kakashi.jpg'),
+        )));
   }
 }
 
